@@ -8,8 +8,8 @@ import { Location } from '@angular/common';
   styleUrls: ['./webtext.component.css']
 })
 export class WebtextComponent implements OnInit {
-  private title: String;
-  private body: String;
+  public title: String;
+  public body: String;
   constructor(location: Location) {
     const loc = location.prepareExternalUrl(location.path());
     console.log(loc);
