@@ -11,7 +11,8 @@ export class WebtextComponent implements OnInit {
   public title: String;
   public body: String;
   constructor(location: Location) {
-    const loc = location.prepareExternalUrl(location.path());
+    let loc = location.prepareExternalUrl(location.path());
+    loc = loc.replace('/frisk', '');
     console.log(loc);
     if (loc === '/sobre') {
       this.title = 'Sobre nos';
