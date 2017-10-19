@@ -22,3 +22,7 @@ h1, h2{
     height:200px;
     overflow:hidden;
 }
+.caption {
+    color: #333333;
+    font-size: 12px;
+}

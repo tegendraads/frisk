@@ -6,7 +6,7 @@ import { WebtextComponent } from './app/webtext/webtext.component'
 
 export const appRoutes: Routes = [
   { path: 'gallery', component: GalleryComponent },
-  { path: 'image/:id', component: ImageDetailComponent },
+  { path: 'gallery/image/:id', component: ImageDetailComponent },
   { path: 'sobre', component: WebtextComponent },
   { path: 'objectivos', component: WebtextComponent },
   { path: 'precisamos-de-si', component: WebtextComponent },
