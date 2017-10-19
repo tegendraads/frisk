@@ -1,2 +1,2 @@
 # frisk
-Biodiversity4All Frisk
+Biodiversity4All Frisk project
