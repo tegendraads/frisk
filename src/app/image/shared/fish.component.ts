@@ -8,4 +8,5 @@ export class Fish{
     data_de_chegada: string = '';
     origem: string = '';
     usos: string = '';
+    url: string = '';
 }
