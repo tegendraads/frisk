@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
   title = 'FRISK project';
-
+  isCollapsed = true;
   filterBoats() {
     console.log('Boats!')
   }

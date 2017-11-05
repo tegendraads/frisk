@@ -1,3 +1,4 @@
+import { FishService } from './image/shared/fish.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -30,7 +31,7 @@ import { WebtextComponent } from './webtext/webtext.component'
     HttpModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [ImageService, ImageFilterPipe],
+  providers: [ImageService, ImageFilterPipe, FishService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

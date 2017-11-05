@@ -1,14 +1,57 @@
 <div class="row">
-  <div class="col-md-12 caption-row">
+  <div class="col-md-12">
     <span id="caption">
      <i> {{image.caption}}</i>
     </span>
   </div>
 </div>
 
-<div class="row">
-  <div class=col-md-12>
-    <div [ngStyle]="{'background-image':'url(assets/img/'+ image.url +')'}" class="img-container paper">
+  <div class="row">
+      <div class="col-md-2 title">
+      </div>
+    <div class="col-md-10 paper" innerHTML="{{fish.description}}">
     </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 title">
+        Data de chegada:
+    </div>
+    <div class="col-md-10 paper">
+       {{fish.data_de_chegada}}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 title">
+        Usos:
+    </div>
+    <div class="col-md-10 paper">
+        {{fish.usos}}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 title">
+        Origem:
+    </div>
+    <div class="col-md-10 paper">
+        {{fish.origem}}
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-md-2 title">
+      </div>
+      <div class="col-md-10 paper">
+          <a href="{{fish.url}}" target="_blank">Localizações em Portugal</a>
+      </div>
+    </div>
+
+
+
+
+<div class="row">
+  <div class="col-md-12" class="img-container paper">
+    <img src="assets/img/{{image.url}}" >
+    <span class="glyphicon glyphicon-chevron-right overimage-right" (click)="goNext()"></span>
+    <span class="glyphicon glyphicon-chevron-left overimage-left" (click)="goPrevious()"></span>
+
   </div>
 </div>
