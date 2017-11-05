@@ -13,7 +13,7 @@ import { ImageComponent } from './image/image.component';
 import { ImageDetailComponent } from './image/image-detail.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { appRoutes } from '../routes';
-import { WebtextComponent } from './webtext/webtext.component'
+import { WebtextComponent } from './webtext/webtext.component';
 
 @NgModule({
   declarations: [
