@@ -89,7 +89,10 @@ export class WebtextComponent implements OnInit {
     Facebook: <a target="_blank" href="https://www.facebook.com/pg/FRISKPROJECT/">https://www.facebook.com/pg/FRISKPROJECT/</a><br>
     Youtube: <a target="_blank" href="https://www.youtube.com/channel/UCuPRt8TvNKvKRWXZbBJvKww">Frisk channel</a><br>
 <br><br>
-    <a target="_blank" href="assets/downloads/FolhetoFRISK_02102017.pdf">Descarregue o folheto do FRISK</a>
+    <a target="_blank" href="assets/downloads/FRISK_Folheto_PT.pdf">Descarregue o folheto do FRISK</a><br>
+    <a target="_blank" href="assets/downloads/FRISK_Brochure_FR.pdf">Télécharge le brochure du FRISK</a><br>
+    <a target="_blank" href="assets/downloads/FRISK_Leaflet_EN.pdf">Download the leaflet of FRISK</a><br>
+    <a target="_blank" href="assets/downloads/FRISK_Folleto_ES.pdf">Descarga el folleto de FRISK</a><br>
 
     `;
     console.log(loc);
