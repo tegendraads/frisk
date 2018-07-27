@@ -1,12 +1,14 @@
-import { Injectable } from '@angular/core'
+import { Injectable } from '@angular/core';
 
 @Injectable()
-export class Fish{
-    id: number = 0;
-    name: string = '';
-    description: string = '';
-    data_de_chegada: string = '';
-    origem: string = '';
-    usos: string = '';
-    url: string = '';
+
+export class Fish {
+
+    id = 0;
+    name = '';
+    description = '';
+    data_de_chegada = '';
+    origem = '';
+    usos = '';
+    url = '';
 }

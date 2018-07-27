@@ -51,5 +51,6 @@ export class ImageDetailComponent implements OnInit {
   goToFish(id: number) {
     this.image = this.imageService.getImage(id);
     this.fish = this.fishService.getFish(id);
+    console.log(this.fish);
   }
 }
